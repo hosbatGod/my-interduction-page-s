@@ -4,4 +4,14 @@ body{
     background-color: rgb(27, 27, 27);
     color: aliceblue;
     font: 600;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    border: solid 5px;
+    border-color: aquamarine;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
